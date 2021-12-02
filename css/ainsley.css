@@ -291,7 +291,7 @@ aside{
 
 
 .ticketphotos{
-    background-color: #81B29A;
+    background-color: rgba(129, 178, 154,.4);
     margin-top: 2%;
     margin-bottom: 2%;
     margin-right: 2%;
@@ -301,9 +301,10 @@ aside{
     font-size: 1.25rem;
     width:32vw;
     padding-top: 2%;
+    border-radius: 10px;
 }
 .fun{
-    background-color: #E07A5F;
+    background-color: rgba(224, 122, 95,.4);
     margin-top: 2%;
     margin-bottom: 2%;
     margin-right: 2%;
@@ -313,9 +314,10 @@ aside{
     font-size: 1.25rem;
     width:32vw;  
     padding-top: 2%;
+    border-radius: 10px;
 }
 .snack{
-    background-color: #81B29A;
+    background-color: rgba(129, 178, 154,.4);
     margin-top: 2%;
     margin-bottom: 2%;
     text-align: center;
@@ -324,6 +326,7 @@ aside{
     font-size: 1.25rem;
     width:32vw; 
     padding-top: 2%;
+    border-radius: 10px;
 }
 .gallery{
     display:inline-flex;
