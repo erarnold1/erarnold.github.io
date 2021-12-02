@@ -1,5 +1,8 @@
 @import url("https://use.typekit.net/bvz3juu.css");
 
+*{
+    font-family: abril-display,serif;
+}
 #hamnav {
     visibility: hidden;
 
@@ -13,6 +16,9 @@
 #navitems a:hover, #navitems a:focus {
     background-color: #F4F1DE;
     color: #3D405B;
+}
+p{
+    font-family: brevia, sans-serif;
 }
 
 .title {
@@ -173,10 +179,12 @@ img{
 
 h1{
     color: #3D405B;
+    font-family: abril-display,serif;
 }
 label{
     color: #3D405B;
     font-size: 1.25em;
+    font-family: brevia, sans-serif;
 }
 .contact{
     text-align: center;
@@ -191,8 +199,9 @@ font-family: abril-display serif;
 
 }
 fieldset{
-    background-color: #81B29A;
+    background-color: rgba(129, 178, 154,.6);
     border: transparent;
+    font-family: brevia, sans-serif;
     
 
 }
@@ -210,7 +219,8 @@ button{
     transition: background-position 1s ease;
 color: #3D405B;
 font-size: 1.2rem;
-
+border-radius: 10px;
+font-family: brevia, sans-serif;
 }
 button:hover{
 background-position: 100% 50%;
@@ -219,6 +229,7 @@ input{
     border-radius: 3%;
     padding: 3%;
     border:transparent;
+    font-family: brevia, sans-serif;
 }
 input:hover{
     background-color: #f7baa9;
@@ -283,10 +294,12 @@ header{
 }
 li{
     padding: 2%;
+    font-family: brevia, sans-serif;
 }
 aside{
     padding: 2%;
     font-size: smaller;
+    font-family: brevia, sans-serif;
 }
 
 
