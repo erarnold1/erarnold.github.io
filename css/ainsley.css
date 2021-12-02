@@ -225,15 +225,24 @@ input:hover{
     transition: background-color 1s ease;
   
 }
-footer{
+/*footer{
     text-align: center;
     color:#F4F1DE;
     background-color: #E07A5F;
     font-size: 1.5rem;
     font-family: abril-display serif;
 
+} */
+footer{
+    text-align: center;
+    width: 100%;
+    background-color: #E07A5F;
+    color: #F4F1DE;
+    padding: 10px;
+    height: 30px;
+    position: sticky;
+    bottom:0;
 }
-
 @media screen and (min-width:1000px){
     form{
         width: 60%;
@@ -243,6 +252,15 @@ footer{
    .contact{
        background-color: #F4F1DE;
    }
+   /*footer{
+       grid-row:4;
+       height: 150%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-top: .5rem;
+
+   }*/
 }
 
 
@@ -319,7 +337,22 @@ aside{
    .grid-column-layout{
        height: 40vh;
    }
-   
+  /* footer{
+       grid-row:4;
+       height: 90%;
+
+   } */
+   footer{
+    text-align: center;
+    width: 100%;
+    background-color: #E07A5F;
+    color: #F4F1DE;
+    padding: 10px;
+    height: 20px;
+    position: sticky;
+    bottom:0;
+    margin-top: 1rem;
+}
     .ticketprice{
         width: 65vw;
     }
@@ -371,5 +404,5 @@ height: 70vh;
 .grid-column-layout{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 8fr .5fr ;
+    grid-template-rows: 1fr 8fr .5fr;
 }
